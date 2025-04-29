@@ -1,0 +1,115 @@
+body {
+    background-color: #F5F5F5; /* Light background for contrast */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section {
+    flex: 1;
+    background-color: #EAEAEA; /* Light grey for the left section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.center-section {
+    flex: 1;
+    background-color: #FFFFFF; /* White for the center section */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #FF0000; /* Red color for headings (Burundian theme) */
+}
+
+label {
+    font-weight: bold;
+    color: #007A33; /* Green color for labels (Burundian theme) */
+}
+
+.btn-primary {
+    background-color: #FF0000; /* Red button */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #D40000; /* Darker red on hover */
+}
+
+.dropdown-menu {
+    background-color: #007A33; /* Green dropdown menu */
+}
+
+.dropdown-item {
+    color: #FFFFFF; /* White text for dropdown items */
+}
+
+.dropdown-item:hover {
+    background-color: #005B24; /* Darker green on hover */
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+/* Add more responsive styles as needed */
+.header{
+    position: relative; 
+    background: url('images/Foto background.jpg' ) no-repeat center center; 
+    background-size: cover; 
+    height: 500px; opacity: 0.5;
+}
+
+/* design for the countdown */
+.countdown-container {
+    display: flex;
+    justify-content: space-around; /* Evenly space the items */
+    align-items: center; /* Vertically align items */
+    width: 100%; /* Adjust width as needed */
+    /* Add any background styling if the container has one */
+  }
+  
+  .countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+  
+  .countdown-circle {
+    width: 70px; /* Adjust size as needed */
+    height: 70px; /* Make it a circle */
+    border-radius: 50%;
+    border: 2px solid white; /* Thin white border */
+    background-color: transparent; /* Transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px; /* Space between circle and label */
+  }
+  
+  .countdown-number {
+    font-size: 2.5em; /* Larger font size */
+    font-weight: bold;
+    color: white;
+    text-align: center; /* Ensure number is centered */
+  }
+  
+  .countdown-label {
+    font-size: 0.8em;
+    font-weight: normal; /* Or slightly bold: 500 */
+    color: white;
+    letter-spacing: 0.1em; /* Slight letter spacing */
+    text-align: center;
+  }
